@@ -1,0 +1,40 @@
+print('Entre 1 pour le dejeuner')
+
+print('Entre 2 pour le diner')
+
+print('entre 3 pour le souper')
+wrongAnswer =   True
+while wrongAnswer :
+    valeur=input('quelle est le repas le plus important ')
+    if valeur == '1' :
+        print("bonne reponse")
+        wrongAnswer=   False
+    elif valeur == '2' :
+        print ('mauvaise reponse')
+        wrongAnswer = False
+    elif valeur =='3'  :
+         print ('mauvaise reponse')
+    else : 
+          print('reessayer avec 1 , 2 ou 3 ')
+print()
+          
+print('Entre 1 pour le iphone 12')
+
+print('Entrer 2 pour le iphone 12 pro')
+
+print('Entrer 3 pour le iphone 12 pro max ')
+paslareponsequelontcherchait = True
+while paslareponsequelontcherchait:
+   valeur1=input('quelle est le telephone de apple le plus puissant en fin 2020 ')
+
+   if  valeur1 == '1' : 
+    print('mauvaise reponse')
+    paslareponsequelontcherchait= False
+   elif valeur1 == '2' :
+    print ('mauvaise reponse')
+    paslareponsequelontcherchait= False
+   elif valeur1 == '3' :
+    print ('bonne reponse')
+   else :
+    print('ressayer avec 1 , 2 ou 3 ')
+      
